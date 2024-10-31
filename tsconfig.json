@@ -1,23 +1,50 @@
+// {
+//   "compilerOptions": {
+//     /* Language and Environment */
+//     "target": "ES2020",
+
+//     /* Modules */
+//  "module": "CommonJS",
+//     "moduleResolution": "node",
+//     "skipLibCheck": true,
+
+//     /* JavaScript Support */
+//     "allowJs": true,
+//     "checkJs": true,
+
+//     /* Interop Constraints */
+//     "esModuleInterop": true,
+//     "allowSyntheticDefaultImports": true,
+//     "forceConsistentCasingInFileNames": true,
+
+//     /* Type Checking */
+//     "strict": true,
+//     "noUnusedLocals": true,
+//     "noUnusedParameters": true,
+//     "noFallthroughCasesInSwitch": true,
+//     "exactOptionalPropertyTypes": true,
+//     "noImplicitReturns": true,
+//     "noImplicitOverride": true,
+//     "useUnknownInCatchVariables": true,
+
+//     /* Output Directory and Root Directory */
+//     "outDir": "./server/dist",   // Output directory for compiled files
+//     "rootDir": "./server/src"     // Root directory for TypeScript source files
+//   },
+//   "include": ["server/src/**/*.ts"],  // Include all TypeScript files in server/src
+//   "exclude": ["node_modules"]         // Exclude node_modules to prevent unnecessary processing
+// }
 {
   "compilerOptions": {
-    /* Language and Environment */
     "target": "ES2020",
-
-    /* Modules */
- "module": "CommonJS",
+    "module": "CommonJS",
     "moduleResolution": "node",
     "skipLibCheck": true,
-
-    /* JavaScript Support */
     "allowJs": true,
     "checkJs": true,
-
-    /* Interop Constraints */
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
-
-    /* Type Checking */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
@@ -26,11 +53,9 @@
     "noImplicitReturns": true,
     "noImplicitOverride": true,
     "useUnknownInCatchVariables": true,
-
-    /* Output Directory and Root Directory */
-    "outDir": "./server/dist",   // Output directory for compiled files
-    "rootDir": "./server/src"     // Root directory for TypeScript source files
+    "outDir": "./server/dist",
+    "rootDir": "./server/src"
   },
-  "include": ["server/src/**/*.ts"],  // Include all TypeScript files in server/src
-  "exclude": ["node_modules"]         // Exclude node_modules to prevent unnecessary processing
+  "include": ["server/src/**/*.ts"],
+  "exclude": ["node_modules"]
 }
